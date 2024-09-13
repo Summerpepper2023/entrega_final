@@ -18,12 +18,14 @@ html {
 
 
 main.login {
-    background: url(../imgs/file.png) no-repeat center;
+    background: url(../imgs/pexels.jpg) no-repeat center;
     border-radius: 40px;
-    height: 785px;
+    height: 1050px;
     margin: 20px auto;
     position: relative;
     width: 400px;
+    background-size: contain;
+    
 }
 
 main.loginInmo {
@@ -90,8 +92,8 @@ main.login.register form input:nth-child(4) {
 } */
 
 #home h2 {
-    color: #fff;
-    font-size: 40px;
+    color: #000000;
+    font-size: 32px;
     width: 100%;
     text-align: center;
     padding-top: 350px;
@@ -99,8 +101,8 @@ main.login.register form input:nth-child(4) {
 }
 
 #home p {
-    color: #ffffff;
-    font-size: 25px;
+    color: #000000;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 30px;
     
@@ -126,7 +128,7 @@ a.btn-home {
     text-decoration: none;
     display: block;
     padding: 20px;
-    background: #077be7;
+    background: #8207e7;
     border-radius: 30px;
     width: 80%;
     margin: 25px auto;
