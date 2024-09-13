@@ -33,14 +33,15 @@ main.loginInmo {
 }
 
 main.register {
-    background: url(../imgs/registrar.jpg) no-repeat center;
+    background: url(../imgs/pexels-introspectivedsgn-5158158\ 1.png) no-repeat center;
+
 }
 
 /* form */
-main.login form {
+/* main.login form {
     position: relative;
     bottom: 0;
-}
+} */
 
 main.login form input,
 main.login form button {
@@ -48,14 +49,14 @@ main.login form button {
     border: none;
     font-family: "SUSE", sans-serif;
     font-weight: 400;
-    height: 50px;
-    position: relative;
-    left: 18px;
-    width: 360px;
+    height: 25px;
+    left: 20px;
+    width: 350px;
+    padding: 10px;
 }
 
-main.login form input {
-    background: #fff;
+main.login form input,main.login form button {
+    background: #ffffff;
     font-size: 14px;
     opacity: 1;
     outline: none;
@@ -63,6 +64,7 @@ main.login form input {
     transition: opacity 0.2s ease-in;
     position: relative;
     margin-bottom: 14px;
+    
 }
 
 #home.register h2 {
@@ -94,14 +96,31 @@ main.login.register form input:nth-child(4) {
     font-size: 32px;
     width: 100%;
     text-align: center;
-    padding-top: 430px;
+    padding-top: 350px;
+    text-shadow: 4px 4px 1px rgb(5, 1, 255);
 }
 
 #home p {
     color: #000000;
     font-size: 18px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    
+}
+
+.botonVolver  {
+    color:#ff0000;
+    border-radius: 8px;
+    margin: 15px;
+    background-color: rgba(63, 0, 0, 0.473);
+    border-color: transparent;
+    text-shadow: 2px 2px 1px blue;
+    
+}
+.botonVolver a{
+    color: white;
+    text-decoration: none;
+    
 }
 
 a.btn-home {
@@ -113,7 +132,7 @@ a.btn-home {
     border-radius: 30px;
     width: 80%;
     margin: 25px auto;
-    color: #fff;
+    color: #070707;
     transition: .4s;
 }
 
@@ -160,8 +179,8 @@ main.login form input:last-of-type {
 main.login form button,
 main.add form button,
 main.edit form button {
-    color: #fff;
-    background: #077be7;
+    color: black;
+    background: violet;
     font-size: 16px;
     transition: transform 0.4s ease-in;
     transition: .4s;
@@ -170,10 +189,10 @@ main.edit form button {
 main.login form button:hover,
 main.add form button:hover,
 main.edit form button:hover {
-    cursor: pointer;
-    transform: scale(1.02);
-    background: #FFD27F;
-    color: #666;
+    cursor: crosshair;
+    transform: scale(1.05);
+    background: #077be7;
+    color: white;
 }
 
 /* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
