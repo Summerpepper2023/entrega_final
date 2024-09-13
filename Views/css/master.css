@@ -24,6 +24,7 @@ main.login {
     margin: 20px auto;
     position: relative;
     width: 400px;
+    
 }
 
 main.loginInmo {
@@ -107,7 +108,7 @@ a.btn-home {
     text-decoration: none;
     display: block;
     padding: 20px;
-    background: #077be7;
+    background: #8207e7;
     border-radius: 30px;
     width: 80%;
     margin: 25px auto;
