@@ -168,10 +168,10 @@ main.edit form button {
 main.login form button:hover,
 main.add form button:hover,
 main.edit form button:hover {
-    cursor: pointer;
-    transform: scale(1.02);
-    background: #FFD27F;
-    color: #666;
+    cursor: crosshair;
+    transform: scale(1.05);
+    background: #077be7;
+    color: white;
 }
 
 /* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
