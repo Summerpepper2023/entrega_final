@@ -182,11 +182,20 @@ main.edit form button:hover {
 #vehiculos{
     width: 400px;
     margin: 100px auto;
-    height: 1000px;
-    background: #077be7;
+    height: fit-content;
+    background: white;
     border-radius: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
+    box-shadow:1px 1px 5px#2b2a2a;
+}
+
+#vehiculos button{
+    background: #666;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 #nav_vehiculos{
@@ -226,6 +235,44 @@ main.edit form button:hover {
     color: white;
     text-align: center;
     margin-bottom: 20px;
+}
+
+#vehicles .fila{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+#vehicles article{
+    background: white;
+    box-shadow:1px 1px 5px#2b2a2a;
+    width: 140px;
+    padding: 8px;
+    font-size: 10px;
+    border-radius:15px;
+
+}
+
+#vehicles article img{
+    width: 140px;
+    border-radius: 15px 15px 0 0;
+}
+
+#vehiculos footer{
+    background: black;
+    height: fit-content;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    border-radius: 0 0 40px 40px;
+    margin: 10px 0;
+}
+
+#vehiculos footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 /* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
 /* Dashboard */
