@@ -18,12 +18,13 @@ html {
 
 
 main.login {
-    background: url(../imgs/file.png) no-repeat center;
+    background: url(../imgs/pexels.jpg) no-repeat center;
     border-radius: 40px;
-    height: 930px;
+    height: 1050px;
     margin: 20px auto;
     position: relative;
     width: 400px;
+    background-size: contain;
     
 }
 
@@ -89,7 +90,7 @@ main.login.register form input:nth-child(4) {
 } */
 
 #home h2 {
-    color: #fff;
+    color: #000000;
     font-size: 32px;
     width: 100%;
     text-align: center;
@@ -97,7 +98,7 @@ main.login.register form input:nth-child(4) {
 }
 
 #home p {
-    color: #fff;
+    color: #000000;
     font-size: 18px;
     text-align: center;
     margin-bottom: 60px;
