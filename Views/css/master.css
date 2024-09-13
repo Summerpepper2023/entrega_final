@@ -174,6 +174,59 @@ main.edit form button:hover {
     color: #666;
 }
 
+
+/*=================================================================*/
+/* Vista Vehiculos */
+/*=================================================================*/
+
+#vehiculos{
+    width: 400px;
+    margin: 100px auto;
+    height: 1000px;
+    background: #077be7;
+    border-radius: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+
+#nav_vehiculos{
+    background: black;
+    border-radius: 40px 40px 0 0;
+    color:white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 15px 0;
+}
+
+#nav_vehiculos ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#nav_vehiculos ul li{
+    margin: 0 10px;
+    list-style: none;
+}
+
+#nav_vehiculos ul li:hover{
+    border-bottom: white 1px solid;
+
+}
+
+#hero{
+    background: url(../imgs/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
 /* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
 /* Dashboard */
 /* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
