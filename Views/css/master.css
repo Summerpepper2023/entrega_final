@@ -46,7 +46,7 @@ main.login form button {
     border: none;
     font-family: "SUSE", sans-serif;
     font-weight: 400;
-    height: 50px;
+    height: fit-content;
     position: relative;
     left: 18px;
     width: 360px;
@@ -61,6 +61,7 @@ main.login form input {
     transition: opacity 0.2s ease-in;
     position: relative;
     margin-bottom: 14px;
+    padding: 10px;
 }
 
 #home.register h2 {
@@ -89,17 +90,28 @@ main.login.register form input:nth-child(4) {
 
 #home h2 {
     color: #fff;
-    font-size: 32px;
+    font-size: 40px;
     width: 100%;
     text-align: center;
-    padding-top: 430px;
+    padding-top: 350px;
+    text-shadow: 4px 4px 1px rgb(5, 1, 255);
 }
 
 #home p {
     color: #fff;
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    
+}
+.botonVolver  {
+    color:#ff0000;
+    border-radius: 8px;
+    margin: 15px;
+    background-color: rgba(128, 128, 128, 0.568);
+}
+.botonVolver a{
+    color: white;
 }
 
 a.btn-home {
