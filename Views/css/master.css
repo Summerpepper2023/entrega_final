@@ -35,10 +35,10 @@ main.register {
 }
 
 /* form */
-main.login form {
+/* main.login form {
     position: relative;
     bottom: 0;
-}
+} */
 
 main.login form input,
 main.login form button {
@@ -46,14 +46,14 @@ main.login form button {
     border: none;
     font-family: "SUSE", sans-serif;
     font-weight: 400;
-    height: 50px;
-    position: relative;
-    left: 18px;
-    width: 360px;
+    height: 25px;
+    left: 20px;
+    width: 350px;
+    padding: 10px;
 }
 
-main.login form input {
-    background: #fff;
+main.login form input,main.login form button {
+    background: #ffffff;
     font-size: 14px;
     opacity: 1;
     outline: none;
@@ -61,6 +61,7 @@ main.login form input {
     transition: opacity 0.2s ease-in;
     position: relative;
     margin-bottom: 14px;
+    
 }
 
 #home.register h2 {
@@ -89,17 +90,34 @@ main.login.register form input:nth-child(4) {
 
 #home h2 {
     color: #fff;
-    font-size: 32px;
+    font-size: 40px;
     width: 100%;
     text-align: center;
-    padding-top: 430px;
+    padding-top: 350px;
+    text-shadow: 4px 4px 1px rgb(5, 1, 255);
 }
 
 #home p {
-    color: #fff;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 25px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    
+}
+
+.botonVolver  {
+    color:#ff0000;
+    border-radius: 8px;
+    margin: 15px;
+    background-color: rgba(63, 0, 0, 0.473);
+    border-color: transparent;
+    text-shadow: 2px 2px 1px blue;
+    
+}
+.botonVolver a{
+    color: white;
+    text-decoration: none;
+    
 }
 
 a.btn-home {
@@ -111,7 +129,7 @@ a.btn-home {
     border-radius: 30px;
     width: 80%;
     margin: 25px auto;
-    color: #fff;
+    color: #070707;
     transition: .4s;
 }
 
